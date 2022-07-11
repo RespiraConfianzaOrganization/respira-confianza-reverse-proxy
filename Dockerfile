@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM jonasal/nginx-certbot
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
